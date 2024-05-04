@@ -729,9 +729,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5999421935151854567, guid: c9552be0fd6d19b4cbb8173949d43811, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c9552be0fd6d19b4cbb8173949d43811, type: 3}
       propertyPath: m_Name
       value: Ch08_nonPBR@Standard Walk
+      objectReference: {fileID: 0}
+    - target: {fileID: 4667187126089269566, guid: c9552be0fd6d19b4cbb8173949d43811, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5334200709114370794, guid: c9552be0fd6d19b4cbb8173949d43811, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: c9552be0fd6d19b4cbb8173949d43811, type: 3}
       propertyPath: m_Controller

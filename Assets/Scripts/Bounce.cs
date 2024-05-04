@@ -19,7 +19,7 @@ public class Bounce : MonoBehaviour
     void OnCollisionEnter(Collision collider){
         if(collider.gameObject.transform.tag == "Ball"){
             GameObject ball = collider.gameObject;
-            ball.GetComponent<Rigidbody>().AddForce(-collider.contacts[0].normal/4,ForceMode.Impulse);
+            ball.GetComponent<Rigidbody>().AddForce(-collider.contacts[0].normal/1.5f,ForceMode.Impulse);
         }
     }
 }

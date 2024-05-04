@@ -219,7 +219,7 @@ public class MovementManager : MonoBehaviour
         }
         else if(coursesComplete==3){
             overallScoreText.GetComponent<TextMeshProUGUI>().text = "You Finished with score " +overallScore;
-            if(otherPlayersComplete == 0 && !justFinished){
+            if(!justFinished){
                 otherPlayersComplete++;
                 justFinished = true;
                 int[] myScore = new int[2];
